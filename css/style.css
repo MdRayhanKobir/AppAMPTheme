@@ -1,0 +1,164 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header*/
+.my-header .navbar-brand{
+    font-size: 25px;
+    font: weight 660px;;
+    margin-right: 10px;
+
+}
+.my-header span{
+    background-color: #6278df;
+    color: white;
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    font-size: 28px;
+    display: inline-block;
+    border-radius:5px;
+    
+}
+.my-menu .nav-link{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  
+}
+
+/*slider*/
+.slider-section{
+    background: url(../image/mbr-10.jpg) no-repeat center;
+    padding: 150px 0  ;
+    position: relative;
+    z-index:1;
+
+}
+.slider-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+    background: rgba(92, 92, 92, 0.3);
+    z-index:-1;
+}
+
+.about-section{
+    background: #f7f9ff;
+}
+
+.n-c-item{
+    margin-top:90px;
+}
+.n-c-item .lead{
+    font-weight:400;
+}
+/* feature*/
+
+.feature-item{
+    height: 300px;
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+.left-text-sec{
+    width: 60%;
+    
+}
+img{
+    max-width: 100%;
+}
+
+/*portfolio hover*/
+.portfolio-item{}
+.portfolio-item a{
+    display:block;
+    position: relative;
+    
+
+}
+.portfolio-item a::after{
+    content: "";
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(98, 120, 223,0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.portfolio-item:hover a::after{
+    visibility:visible;
+    opacity: 1;
+
+}
+/*pricing table*/
+.p-item{
+    background: rgb(255, 255, 255);
+    padding: 50px;
+}
+.p-item ul{ 
+    list-style: none;
+    margin-left:0;
+    padding-left:0;
+
+}
+.p-item ul li{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom:30px;
+    color: gray;
+    
+}
+.p-item ul li span{
+    color: #6278df;
+    font-size: 25px;
+    width: 50px;
+    display: inline-block;
+
+}
+.user-img{
+    width: 200px;
+    margin: auto;
+}
+.user-img img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.user-info{
+    position: relative;
+    top: 30px;
+    width: 230px;
+
+}
+.testimonial-item{
+    width:800px;
+}
+.about-item img{
+    width: 100px;
+    height:100px;
+    margin-top:-60px;
+    margin-left: 35px;
+
+}
+.about-item{
+    margin-top:90px;
+}
+.p-line p{
+    font-size:25px;
+    line-height:3rem;
+}
